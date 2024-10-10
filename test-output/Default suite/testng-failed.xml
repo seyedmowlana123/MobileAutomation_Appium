@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="NonWorkMarketFlow">
+        <methods>
+          <include name="SubmitFlow"/>
+          <include name="powerFlowWithNumberedPanels"/>
+          <include name="WrapUpFlow"/>
+          <include name="testFlow"/>
+          <include name="launchApp"/>
+          <include name="nonWorkMarketFlow"/>
+          <include name="numberedPanelsFlow"/>
+          <include name="CTFlow"/>
+          <include name="cellRouterFlow"/>
+        </methods>
+      </class> <!-- NonWorkMarketFlow -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
